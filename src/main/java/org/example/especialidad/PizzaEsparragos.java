@@ -8,4 +8,8 @@ public class PizzaEsparragos extends Pizza {
     public PizzaEsparragos(String esparrago) {
         this.esparrago = esparrago;
     }
+
+    public String getEsparrago() {
+        return esparrago;
+    }
 }

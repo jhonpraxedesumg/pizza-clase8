@@ -39,10 +39,12 @@ public class Pizza {
         }
 
         public String getName() {
+
             return name;
         }
 
         public double getPrice() {
+
             return price;
         }
 
