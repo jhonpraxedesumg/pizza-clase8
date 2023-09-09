@@ -1,6 +1,7 @@
 package org.example.especialidad;
 
 import org.example.base.pizza.Pizza;
+import org.example.base.pizza.Topping;
 
 public class PizzaItaliana extends Pizza {
     private String salsa;
@@ -9,6 +10,7 @@ public class PizzaItaliana extends Pizza {
         this.salsa=salsa;
     }
     public String getSalsa(){
+
         return salsa;
     }
 
